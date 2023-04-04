@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tvshow>
+    <title>Edição da Tarde</title>
+    <showtitle>Edi��o da Tarde</showtitle>
+    <sorttitle clear="true">Edição da Tarde</sorttitle>
+    <originaltitle>Edição da Tarde</originaltitle>
+    <!--No valid ID was defined - using internal DB ID as fallback-->
+    <uniqueid default="true" type="mediaelch_fallback">3</uniqueid>
+    <ratings>
+        <rating name="tvdb" default="true" max="10">
+            <value>0</value>
+            <votes>0</votes>
+        </rating>
+    </ratings>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <episode>0</episode>
+    <season>0</season>
+    <plot>Na �Edi��o da Tarde� fique a par de toda a atualidade nacional e internacional, das novidades do cartaz de eventos em Portugal e da informa��o desportiva.</plot>
+    <mpaa>M/12</mpaa>
+    <premiered>2021-01-01</premiered>
+    <year>2021</year>
+    <dateadded></dateadded>
+    <status></status>
+    <studio>SIC</studio>
+    <trailer></trailer>
+    <genre>News</genre>
+    <generator>
+        <appname>MediaElch</appname>
+        <appversion>2.8.12</appversion>
+        <kodiversion>19</kodiversion>
+        <datetime>2021-07-22T19:49:50Z</datetime>
+    </generator>
+</tvshow>

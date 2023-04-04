@@ -1,0 +1,205 @@
+?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tvshow>
+    <title>Golpe De Sorte Edição Especial</title>
+    <showtitle></showtitle>
+    <sorttitle clear="true">Golpe De Sorte Edição Especial</sorttitle>
+    <originaltitle>Golpe de Sorte</originaltitle>
+    <uniqueid default="true" type="tmdb">89766</uniqueid>
+    <uniqueid type="tvdb">363559</uniqueid>
+    <id>89766</id>
+    <userrating>0</userrating>
+    <top250>0</top250>
+    <episode>0</episode>
+    <season>0</season>
+    <plot>Golpe de Sorte é uma série com ADN nacional, realista e repleta de suspense, que revelará a cada episódio mais um pedaço de uma narrativa que explora a fundo as emoções humanas: ambição, amor, inveja, desejo de vingança, luxúria e compaixão conjugam-se para criar uma trama surpreendente, capaz de prender a atenção do público do primeiro ao último minuto.</plot>
+    <mpaa>M/12</mpaa>
+    <premiered>2019-05-27</premiered>
+    <year>2019</year>
+    <dateadded></dateadded>
+    <status>Ended</status>
+    <studio>SIC</studio>
+    <runtime>50</runtime>
+    <trailer></trailer>
+    <episodeguide>89766</episodeguide>
+    <genre>Soap</genre>
+    <genre>Drama</genre>
+    <genre>Crime</genre>
+    <thumb aspect="poster" preview="https://image.tmdb.org/t/p/original/crPj51OVO5pQm5nUJV4bCwQhbnS.jpg">https://image.tmdb.org/t/p/original/crPj51OVO5pQm5nUJV4bCwQhbnS.jpg</thumb>
+    <fanart>
+        <thumb preview="https://image.tmdb.org/t/p/original/lJrciegsSN6izYvVJ8udxllM2hD.jpg">https://image.tmdb.org/t/p/original/lJrciegsSN6izYvVJ8udxllM2hD.jpg</thumb>
+    </fanart>
+    <actor>
+        <name>Rui Dionisio</name>
+        <role>Rui Estrela</role>
+        <order>0</order>
+        <thumb>https://image.tmdb.org/t/p/original</thumb>
+    </actor>
+    <actor>
+        <name>Ana Guiomar</name>
+        <role>Patrícia Cruz</role>
+        <order>1</order>
+        <thumb>https://image.tmdb.org/t/p/original</thumb>
+    </actor>
+    <actor>
+        <name>Francisco Sousa</name>
+        <role>Hélder (Jovem)</role>
+        <order>2</order>
+        <thumb>https://image.tmdb.org/t/p/original/1flfBQ8jrHIeAeDDPW07Qczw44i.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mário Bomba</name>
+        <role>Médico</role>
+        <order>3</order>
+        <thumb>https://image.tmdb.org/t/p/original/c7W7DVQQWrpShAy2N93IYnqGNVV.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maria João Abreu</name>
+        <role>Maria do Céu Garcia</role>
+        <order>4</order>
+        <thumb>https://image.tmdb.org/t/p/original/qQJt1f9nAn1ZVfUIHwgVsaba9oz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Dânia Neto</name>
+        <role>Sílvia Mira</role>
+        <order>5</order>
+        <thumb>https://image.tmdb.org/t/p/original/sN056INHnTxiz6ccqCu32uYydCe.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jorge Corrula</name>
+        <role>Caio Amaral</role>
+        <order>6</order>
+        <thumb>https://image.tmdb.org/t/p/original/xbhlBi9jnJpoyQq4HJ8Q5ggjS5.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Manuela Maria</name>
+        <role>Preciosa Toledo</role>
+        <order>7</order>
+        <thumb>https://image.tmdb.org/t/p/original/8iZGBbBg03rPApxKHdSKIYt9QPu.jpg</thumb>
+    </actor>
+    <actor>
+        <name>José Raposo</name>
+        <role>José Luís Toledo</role>
+        <order>8</order>
+        <thumb>https://image.tmdb.org/t/p/original/rsEzOZKm72IdY2zv7MFhw01ZAeh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rui Mendes</name>
+        <role>Natário Garcia</role>
+        <order>9</order>
+        <thumb>https://image.tmdb.org/t/p/original/j343BRXIi6Q3lQPWTvz1buBVSFe.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Vítor Norte</name>
+        <role>Horácio Toledo</role>
+        <order>10</order>
+        <thumb>https://image.tmdb.org/t/p/original/XGo08CK6cZ37XcaaVB5jetvp4F.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Isabela Valadeiro</name>
+        <role>Telma Garcia</role>
+        <order>11</order>
+        <thumb>https://image.tmdb.org/t/p/original/dPJi0bZcCGZmDHQqW3MEwFph2Oz.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ângelo Rodrigues</name>
+        <role>Bruno Garcia</role>
+        <order>12</order>
+        <thumb>https://image.tmdb.org/t/p/original/ky2hPOb2tb3T2XJWW85v7BnoMxE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Henriqueta Maia</name>
+        <role>Cremilde Reis</role>
+        <order>13</order>
+        <thumb>https://image.tmdb.org/t/p/original/g6LkGcTwnRcbGmmo6JScZ91SLRR.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carmen Santos</name>
+        <role>Lúcia Garcia</role>
+        <order>14</order>
+        <thumb>https://image.tmdb.org/t/p/original/m1VngostdfxddXo0Vzr1pJkn2wd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Carolina Carvalho</name>
+        <role>Jéssica Toledo</role>
+        <order>15</order>
+        <thumb>https://image.tmdb.org/t/p/original/zGuMpevpmCbP3qWomvevBX2PTYT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Helena Laureano</name>
+        <role>Rosanne Toledo</role>
+        <order>16</order>
+        <thumb>https://image.tmdb.org/t/p/original/eXCXuWD6XvsAM6HhimwzCnXiBKd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Rosa do Canto</name>
+        <role>Amália Reis</role>
+        <order>17</order>
+        <thumb>https://image.tmdb.org/t/p/original/tMeGqSuTWbA4Vjz9g7J4x7cUThb.jpg</thumb>
+    </actor>
+    <actor>
+        <name>João Paulo Rodrigues</name>
+        <role>Tino</role>
+        <order>18</order>
+        <thumb>https://image.tmdb.org/t/p/original/pCaqYptk9YCsLGBFQ3za79T3Cra.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Cecília Henriques</name>
+        <role>Graciete Pompeu</role>
+        <order>19</order>
+        <thumb>https://image.tmdb.org/t/p/original/1EjclnizFNi6XR6iMLFPPaLEGib.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Inês Monteiro</name>
+        <role>Cíntia Novais</role>
+        <order>20</order>
+        <thumb>https://image.tmdb.org/t/p/original/iVGpcA9duAkUssnOOKAwJHevYyi.jpg</thumb>
+    </actor>
+    <actor>
+        <name>José Carlos Pereira</name>
+        <role>Vitinho</role>
+        <order>21</order>
+        <thumb>https://image.tmdb.org/t/p/original/pWFFF9HZsk8CuZtlYA9Vw92gWVW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sara Norte</name>
+        <role>Branca Lucena</role>
+        <order>22</order>
+        <thumb>https://image.tmdb.org/t/p/original/rwCJlVMfVwSb7QbEFrfEEK10CuA.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Diana Chaves</name>
+        <role>Leonor Alves Craveiro</role>
+        <order>23</order>
+        <thumb>https://image.tmdb.org/t/p/original/tuPGwPwC7wPpl00MwsgxE3L2Kj0.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ana Bustorff</name>
+        <role>Madre Rosário</role>
+        <order>24</order>
+        <thumb>https://image.tmdb.org/t/p/original/9qF2cMO4b6PXPvm4eHHalgxsWQl.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mariana Pacheco</name>
+        <role>Rubi Ferraz</role>
+        <order>25</order>
+        <thumb>https://image.tmdb.org/t/p/original/iCWrpL6vTlH2XIbnNqrXx8rSBl7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Pedro Barroso</name>
+        <role>José Castro</role>
+        <order>26</order>
+        <thumb>https://image.tmdb.org/t/p/original/h9BRJ6mAPV8Wda0GGlh5Xl83HBc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>António Camelier</name>
+        <role>Ricardo Assunção</role>
+        <order>27</order>
+        <thumb>https://image.tmdb.org/t/p/original/hfIy1OBQXBeTp43819KxTWdVne5.jpg</thumb>
+    </actor>
+    <generator>
+        <appname>MediaElch</appname>
+        <appversion>2.8.12</appversion>
+        <kodiversion>19</kodiversion>
+        <datetime>2021-09-26T13:40:42Z</datetime>
+    </generator>
+</tvshow>

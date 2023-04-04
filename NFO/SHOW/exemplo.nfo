@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<tvshow>
+  <plot>Criada e produzida por Seth MacFarlane, a série mostra a irreverente vida de Peter Griffin (voz de MacFarlane) e sua nada comum família de classe média. Lois (Alex Borstein) é a adorável esposa de Peter, que luta para manter o mínimo de normalidade em sua casa. E há os três filhos deles: a adolescente de 16 anos Meg (Mila Kunis, "That '70s Show"), que só pensa em fazer plástica nos lábios e conseguir um par para o baile de formatura; o garoto de 13 anos Chris (Seth Green, "Buffy, a Caça Vampiros"), que é preguiçoso por natureza; e o pequeno Stewie (MacFarlane), um bebê de apenas um ano com uma mente diabólica que só pensa em dominar o mundo. E rondando a casa da família Griffin também está o cachorro falante Brian (MacFarlane), que prefere seus martínis à sua ração para cachorros, e é o mais intelectual da família.</plot>
+  <outline>Criada e produzida por Seth MacFarlane, a série mostra a irreverente vida de Peter Griffin (voz de MacFarlane) e sua nada comum família de classe média. Lois (Alex Borstein) é a adorável esposa de Peter, que luta para manter o mínimo de normalidade em sua casa. E há os três filhos deles: a adolescente de 16 anos Meg (Mila Kunis, "That '70s Show"), que só pensa em fazer plástica nos lábios e conseguir um par para o baile de formatura; o garoto de 13 anos Chris (Seth Green, "Buffy, a Caça Vampiros"), que é preguiçoso por natureza; e o pequeno Stewie (MacFarlane), um bebê de apenas um ano com uma mente diabólica que só pensa em dominar o mundo. E rondando a casa da família Griffin também está o cachorro falante Brian (MacFarlane), que prefere seus martínis à sua ração para cachorros, e é o mais intelectual da família.</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2019-07-12 00:00:00</dateadded>
+  <title>Family Guy</title>
+  <originaltitle>Family Guy</originaltitle>
+  <rating>8.1</rating>
+  <year>1999</year>
+  <mpaa>M/14</mpaa>
+  <imdb_id>tt0182576</imdb_id>
+  <tmdbid>1434</tmdbid>
+  <premiered>1999-01-31</premiered>
+  <releasedate>1999-01-31</releasedate>
+  <runtime>25</runtime>
+  <genre>Comedy</genre>
+  <studio>FOX (US)</studio>
+  <zap2itid>EP00296001</zap2itid>
+  <tvdbid>75978</tvdbid>
+  <art>
+    <poster>/home/luis/media2/Shows/Family Guy (1999)/poster.jpg</poster>
+    <fanart>/home/luis/media2/Shows/Family Guy (1999)/fanart.jpg</fanart>
+  </art>
+  <actor>
+    <name>Seth Green</name>
+    <role>Chris Griffin/Neil Goldman</role>
+    <type>Actor</type>
+    <thumb>/var/lib/jellyfin/metadata/People/S/Seth Green/poster.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Mila Kunis</name>
+    <role>Meg Griffin #2</role>
+    <type>Actor</type>
+    <thumb>/var/lib/jellyfin/metadata/People/M/Mila Kunis/poster.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Alex Borstein</name>
+    <role>Lois/Tricia/Barbara Pewterschmid</role>
+    <type>Actor</type>
+    <thumb>/var/lib/jellyfin/metadata/People/A/Alex Borstein/poster.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Lacey Chabert</name>
+    <role>Meg Griffin #1</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Seth MacFarlane</name>
+    <role>Peter Griffin/Stewie/Brian</role>
+    <type>Actor</type>
+    <thumb>/var/lib/jellyfin/metadata/People/S/Seth MacFarlane/poster.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Mike Henry</name>
+    <role>Cleveland/Herbert/Bruce/Consuela/Greased-up Deaf Guy</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Patrick Warburton</name>
+    <role>Joe Swanson</role>
+    <type>Actor</type>
+    <thumb>/var/lib/jellyfin/metadata/People/P/Patrick Warburton/poster.jpg</thumb>
+  </actor>
+  <actor>
+    <name>Jennifer Tilly</name>
+    <role>Bonnie Swanson</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>John G. Brennan</name>
+    <role>Mort Goldman/Horrace/Mr Weed</role>
+    <type>Actor</type>
+  </actor>
+  <actor>
+    <name>Lucas Grabeel</name>
+    <role>Student / Vaper / Eighth Grader</role>
+    <type>Actor</type>
+  </actor>
+  <id>75978</id>
+  <episodeguide>
+    <url cache="75978.xml">http://www.thetvdb.com/api/1D62F2F90030C444/series/75978/all/pt.zip</url>
+  </episodeguide>
+  <season>-1</season>
+  <episode>-1</episode>
+  <status>Continuing</status>
+  <showtitle>Uma Família da Pesada</showtitle>
+  <votes>548</votes>
+  <thumb aspect="poster">https://assets.fanart.tv/fanart/tv/75978/tvposter/family-guy-537965cf0b619.jpg</thumb>
+  <thumb aspect="poster" season="0" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a3e8e6fa0601.jpg</thumb>
+  <thumb aspect="poster" season="1" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a187ac9c3b55.jpg</thumb>
+  <thumb aspect="poster" season="2" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a187af397dde.jpg</thumb>
+  <thumb aspect="poster" season="3" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a187b10c50d6.jpg</thumb>
+  <thumb aspect="poster" season="4" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a187b34eb52d.jpg</thumb>
+  <thumb aspect="poster" season="5" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19b7d6639f9.jpg</thumb>
+  <thumb aspect="poster" season="6" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19b7f9a46ca.jpg</thumb>
+  <thumb aspect="poster" season="7" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19b81d4e479.jpg</thumb>
+  <thumb aspect="poster" season="8" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19b87a4b4a4.jpg</thumb>
+  <thumb aspect="poster" season="9" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19b8a870e1c.jpg</thumb>
+  <thumb aspect="poster" season="10" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19b8d46e1f7.jpg</thumb>
+  <thumb aspect="poster" season="11" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a19db8ac3170.jpg</thumb>
+  <thumb aspect="poster" season="12" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a1ac4aaac75f.jpg</thumb>
+  <thumb aspect="poster" season="13" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a1ac4cd17e13.jpg</thumb>
+  <thumb aspect="poster" season="14" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a1ac5129e3ee.jpg</thumb>
+  <thumb aspect="poster" season="15" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a1ac543c80be.jpg</thumb>
+  <thumb aspect="poster" season="16" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5a1aae5ae52a3.jpg</thumb>
+  <thumb aspect="poster" season="17" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonposter/family-guy-5b449adb06a04.jpg</thumb>
+  <thumb aspect="banner" season="0" type="season">http://thetvdb.com/banners/seasonswide/75978-0.jpg</thumb>
+  <thumb aspect="banner" season="1" type="season">http://thetvdb.com/banners/seasonswide/75978-1-2.jpg</thumb>
+  <thumb aspect="banner" season="2" type="season">http://thetvdb.com/banners/seasonswide/75978-2-2.jpg</thumb>
+  <thumb aspect="banner" season="3" type="season">http://thetvdb.com/banners/seasonswide/75978-3-2.jpg</thumb>
+  <thumb aspect="banner" season="4" type="season">http://thetvdb.com/banners/seasonswide/75978-4-2.jpg</thumb>
+  <thumb aspect="banner" season="5" type="season">http://thetvdb.com/banners/seasonswide/75978-5-2.jpg</thumb>
+  <thumb aspect="banner" season="6" type="season">http://thetvdb.com/banners/seasonswide/75978-6-2.jpg</thumb>
+  <thumb aspect="banner" season="7" type="season">http://thetvdb.com/banners/seasonswide/75978-7.jpg</thumb>
+  <thumb aspect="banner" season="8" type="season">http://thetvdb.com/banners/seasonswide/75978-8.jpg</thumb>
+  <thumb aspect="banner" season="9" type="season">http://thetvdb.com/banners/seasonswide/75978-9.jpg</thumb>
+  <thumb aspect="banner" season="10" type="season">http://thetvdb.com/banners/seasonswide/75978-10.jpg</thumb>
+  <thumb aspect="banner" season="11" type="season">http://thetvdb.com/banners/seasonswide/75978-11.jpg</thumb>
+  <thumb aspect="banner" season="12" type="season">http://thetvdb.com/banners/seasonswide/75978-12.jpg</thumb>
+  <thumb aspect="banner" season="13" type="season">http://thetvdb.com/banners/seasonswide/75978-13.jpg</thumb>
+  <thumb aspect="thumb" season="0" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5afff4dd85f95.jpg</thumb>
+  <thumb aspect="thumb" season="1" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e22af976.jpg</thumb>
+  <thumb aspect="thumb" season="2" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e38eeab2.jpg</thumb>
+  <thumb aspect="thumb" season="3" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e447906f.jpg</thumb>
+  <thumb aspect="thumb" season="4" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e5a8bfa1.jpg</thumb>
+  <thumb aspect="thumb" season="5" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e82dea92.jpg</thumb>
+  <thumb aspect="thumb" season="6" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e8b2c67c.jpg</thumb>
+  <thumb aspect="thumb" season="7" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e953a207.jpg</thumb>
+  <thumb aspect="thumb" season="8" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1e9f649a9.jpg</thumb>
+  <thumb aspect="thumb" season="9" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1eab1177d.jpg</thumb>
+  <thumb aspect="thumb" season="10" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-4fee1eb337424.jpg</thumb>
+  <thumb aspect="thumb" season="11" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5173eb99675c6.jpg</thumb>
+  <thumb aspect="thumb" season="12" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5173efc145507.jpg</thumb>
+  <thumb aspect="thumb" season="13" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5afff08489523.jpg</thumb>
+  <thumb aspect="thumb" season="14" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5afff12be5873.jpg</thumb>
+  <thumb aspect="thumb" season="15" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5afff2a0991ff.jpg</thumb>
+  <thumb aspect="thumb" season="16" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5afff3a084d24.jpg</thumb>
+  <thumb aspect="thumb" season="17" type="season">https://assets.fanart.tv/fanart/tv/75978/seasonthumb/family-guy-5b476838eb65a.jpg</thumb>
+  <fanart>
+    <thumb>https://assets.fanart.tv/fanart/tv/75978/showbackground/family-guy-531f63971c6c5.jpg</thumb>
+  </fanart>
+  <certification>US:TV-14</certification>
+  <uniqueid default="false" type="imdb">tt0182576</uniqueid>
+  <uniqueid default="true" type="tvdb">75978</uniqueid>
+  <uniqueid default="false" type="unknown">75978</uniqueid>
+  <uniqueid default="false" type="zap2it">EP00296001</uniqueid>
+  <displayseason>-1</displayseason>
+  <displayepisode>-1</displayepisode>
+</tvshow>

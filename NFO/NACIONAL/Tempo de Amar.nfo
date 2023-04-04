@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+    <title>Tempo de Amar</title>
+    <originaltitle>Tempo de Amar</originaltitle>
+    <showtitle>Tempo de Amar</showtitle>
+    <ratings>
+        <rating name="themoviedb" max="10" default="true">
+            <value>8.500000</value>
+            <votes>1</votes>
+        </rating>
+    </ratings>
+    <userrating>8.5</userrating>
+    <top250>0</top250>
+    <season>1</season>
+    <episode>1</episode>
+    <displayseason>-1</displayseason>
+    <displayepisode>-1</displayepisode>
+    <outline></outline>
+    <plot></plot>
+    <tagline></tagline>
+    <runtime>0</runtime>
+    <thumb aspect="poster">https://image.tmdb.org/t/p/original/6KqzgEHNn1NW0Ic8G6YFuQCJBZU.jpg</thumb>
+    <fanart url="https://image.tmdb.org/t/p/">
+        <thumb dim="1280x720" preview="w780/lYGBeErjSlFruoezHkVbaFs9Apr.jpg">original/lYGBeErjSlFruoezHkVbaFs9Apr.jpg</thumb>
+    </fanart>
+    <mpaa>M/12</mpaa>
+    <playcount>0</playcount>
+    <lastplayed></lastplayed>
+    <episodeguide>
+        <url cache="tmdb-74494-pt.json">https://api.themoviedb.org/3/tv/74494?api_key=6a5be4999abf74eba1f9a8311294c267&amp;language=pt&amp;append_to_response=content_ratings,credits,external_ids,images&amp;include_image_language=pt,en,null</url>
+    </episodeguide>
+    <id>74494</id>
+    <uniqueid type="imdb">tt7216642</uniqueid>
+    <uniqueid type="tmdb" default="true">74494</uniqueid>
+    <uniqueid type="tvdb">332895</uniqueid>
+    <genre>Novela</genre>
+    <genre>Drama</genre>
+    <premiered>2017-09-26</premiered>
+    <year>2017</year>
+    <status></status>
+    <code></code>
+    <aired></aired>
+    <studio>Rede Globo</studio>
+    <trailer></trailer>
+    <actor>
+        <name>Vitória Strada</name>
+        <role>Maria Vitória Torres Correia Guedes / Maria do Céu Jardim</role>
+        <order>0</order>
+        <thumb>https://image.tmdb.org/t/p/original/p9CGdiCgrWSz0IcsBlc6NSgB36C.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruno Cabrerizo</name>
+        <role>Inácio Ramos</role>
+        <order>1</order>
+        <thumb>https://image.tmdb.org/t/p/original/hZ6dPGeG0xI39yt6HSth3MxJOsa.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Bruno Ferrari</name>
+        <role>Vicente Alcino Gomes da Rocha</role>
+        <order>2</order>
+        <thumb>https://image.tmdb.org/t/p/original/aTFvC5M5Az0FSxIp65d71bbfrQ8.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Andréia Horta</name>
+        <role>Lucinda Macedo</role>
+        <order>3</order>
+        <thumb>https://image.tmdb.org/t/p/original/xkcylxCDhGoSsJ5tPpWDEqMVpZd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jayme Matarazzo</name>
+        <role>Fernão Coelho de Abreu Moniz</role>
+        <order>4</order>
+        <thumb>https://image.tmdb.org/t/p/original/gBqquYgsFCesTfBnNMNuiLWsjfc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Tony Ramos</name>
+        <role>José Augusto Correia Guedes</role>
+        <order>5</order>
+        <thumb>https://image.tmdb.org/t/p/original/qkhr2wICqCIkGFd8wcWTwNcMgaP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marisa Orth</name>
+        <role>Celeste Hermínia / Mafalda Torres Correia Guedes</role>
+        <order>6</order>
+        <thumb>https://image.tmdb.org/t/p/original/oUynlrNIUHhYXOBe8wFofUlcgXW.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Letícia Sabatella</name>
+        <role>Delfina Leitão</role>
+        <order>7</order>
+        <thumb>https://image.tmdb.org/t/p/original/lgbalTFSLZqo1mVZf07YIDTDY4G.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Henri Castelli</name>
+        <role>Teodoro de Magalhães</role>
+        <order>8</order>
+        <thumb>https://image.tmdb.org/t/p/original/tpyBBTJfvnpI1eJFO3zhhS96vI9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Regina Duarte</name>
+        <role>Madame Lucerne / Catarina do Espírito Santo</role>
+        <order>9</order>
+        <thumb>https://image.tmdb.org/t/p/original/sRwVjxynjZQRX4JtaKjC2b1sdvF.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olívia Torres</name>
+        <role>Tereza Leitão Correia Guedes</role>
+        <order>10</order>
+        <thumb>https://image.tmdb.org/t/p/original/ny79otgWTBfPwAjPvQuboic8f6m.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Mayana Moura</name>
+        <role>Carolina Delamare de Sobral</role>
+        <order>11</order>
+        <thumb>https://image.tmdb.org/t/p/original/wF0Tys1Tjjh6nH5y7hEAczu6wiP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Barbara França</name>
+        <role>Celina Torres da Fontoura</role>
+        <order>12</order>
+        <thumb>https://image.tmdb.org/t/p/original/5MXbKUPFgD9zVMKhG94V5oCFu1q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Guilherme Leicam</name>
+        <role>Artur Ferreira de Sá</role>
+        <order>13</order>
+        <thumb>https://image.tmdb.org/t/p/original/xrwpw3chYTkwl1DEctBCJy0zW7b.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Deborah Evelyn</name>
+        <role>Alzira Torres da Fontoura</role>
+        <order>14</order>
+        <thumb>https://image.tmdb.org/t/p/original/tk3XXeiCAtpXO0x2tDK9VBKTIIk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nelson Freitas</name>
+        <role>Bernardo da Fontoura</role>
+        <order>15</order>
+        <thumb>https://image.tmdb.org/t/p/original/tcZPSaC7UGfU5frogKU7RJrwMSM.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Amanda de Godoi</name>
+        <role>Felícia Pacheco (Lícia / Bijou)</role>
+        <order>16</order>
+        <thumb>https://image.tmdb.org/t/p/original/tOxqoUSVhwLDvc33hK6QvGooak1.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Françoise Forton</name>
+        <role>Emília Macedo</role>
+        <order>17</order>
+        <thumb>https://image.tmdb.org/t/p/original/s1keGgdBRQJz9mbRaUITL3p8LcH.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Cássio Gabus Mendes</name>
+        <role>Dr. Reinaldo Macedo</role>
+        <order>18</order>
+        <thumb>https://image.tmdb.org/t/p/original/lg3fBH41S9BBAtGZcEOcJbZYiS6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Lucy Alves</name>
+        <role>Eunice</role>
+        <order>19</order>
+        <thumb>https://image.tmdb.org/t/p/original/7V9hxwGUnQj06rFbOZtJBcydavr.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Guilherme Prates</name>
+        <role>Giuseppe Molinari</role>
+        <order>20</order>
+        <thumb>https://image.tmdb.org/t/p/original/k5fAoCV7HAXMmoysnirkRU7X8iI.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jessika Alves</name>
+        <role>Helena Pacheco (Lena)</role>
+        <order>21</order>
+        <thumb>https://image.tmdb.org/t/p/original/zR58lbnRr5354g1vAF2JMJwUCWe.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maria Eduarda de Carvalho</name>
+        <role>Mademoiselle Gilberte Conchita Verdoux</role>
+        <order>22</order>
+        <thumb>https://image.tmdb.org/t/p/original/2FyKgYDgVrY1dAqLhrMWIEOXQk7.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Sabrina Petraglia</name>
+        <role>Olímpia Alcino Gomes da Rocha</role>
+        <order>23</order>
+        <thumb>https://image.tmdb.org/t/p/original/qKgRRwDF6q4ukGldCTNiZ2mQnTk.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Marcello Melo Jr.</name>
+        <role>Edgar Herman</role>
+        <order>24</order>
+        <thumb>https://image.tmdb.org/t/p/original/11mEetai4q9W0tj52K2GLjBUDHT.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Nívea Maria</name>
+        <role>Henriqueta Ramos</role>
+        <order>25</order>
+        <thumb>https://image.tmdb.org/t/p/original/fp2L2QGaTiVH0ozS47Zel9Oa7y9.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Werner Schünemann</name>
+        <role>Conselheiro Francisco Alcino</role>
+        <order>26</order>
+        <thumb>https://image.tmdb.org/t/p/original/41j6zfhcL4skl5qnnl0yeRByoS6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jackson Antunes</name>
+        <role>Geraldo Carvalho</role>
+        <order>27</order>
+        <thumb>https://image.tmdb.org/t/p/original/uMdnserzruFLgPO8PNzBGKsuBLd.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Olivia Araújo</name>
+        <role>Ana Filomena Borges (Dona Nicota)</role>
+        <order>28</order>
+        <thumb>https://image.tmdb.org/t/p/original/p9T6L4WsrI9aWotty5G5LeRpoRh.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Yasmin Gomlevsky</name>
+        <role>Isabel Assunção (Irmã Assunção)</role>
+        <order>29</order>
+        <thumb>https://image.tmdb.org/t/p/original/nKpMkviHDYD5iezDqogMJ49czkX.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Giulia Gayoso</name>
+        <role>Natália Pacheco (Naná)</role>
+        <order>30</order>
+        <thumb>https://image.tmdb.org/t/p/original/1DpUsdUNkprw6OoRv7NVbP4dHkg.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ricardo Vianna</name>
+        <role>Tomazzo Molinari</role>
+        <order>31</order>
+        <thumb>https://image.tmdb.org/t/p/original/gZVajdiLhd3hlJ4m2RgvDa9ph0q.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Maicon Rodrigues</name>
+        <role>Percival dos Anjos (Pepito)</role>
+        <order>32</order>
+        <thumb>https://image.tmdb.org/t/p/original/c70ccD0YYoPD55dp4sUH7gqjEZc.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Valquiria Ribeiro</name>
+        <role>Balbina dos Anjos</role>
+        <order>33</order>
+        <thumb>https://image.tmdb.org/t/p/original/ucUmdDWcpQS1nEK8VhrCjBNJV3G.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ana Carbatti</name>
+        <role>Isolina de Jesus</role>
+        <order>34</order>
+        <thumb>https://image.tmdb.org/t/p/original/jQhl4a5XjZVLkCqDM6lpxb9rKm6.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gustavo Piaskoski</name>
+        <role>Lucas Moreiras</role>
+        <order>37</order>
+        <thumb>https://image.tmdb.org/t/p/original/e6deYb3l8jxW8mHzFiVqHCve7FL.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Eli Ferreira</name>
+        <role>Martiniana (Tiana)</role>
+        <order>38</order>
+        <thumb>https://image.tmdb.org/t/p/original/54lLTNLdZe9nUTT2PC5LeKSjd0G.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Cristiano Garcia</name>
+        <role>Gregório de Sant&apos;Anna</role>
+        <order>39</order>
+        <thumb>https://image.tmdb.org/t/p/original/l3i6Eqcw9BbsuspzEQtxl7p5U8Y.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Beatriz Campos</name>
+        <role>Leonor</role>
+        <order>40</order>
+        <thumb>https://image.tmdb.org/t/p/original/z2QaUXUHCD7Nb5ZbkqPy0F07fEP.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Jorge de Sá</name>
+        <role>Justino</role>
+        <order>41</order>
+        <thumb>https://image.tmdb.org/t/p/original/5S94mep9VNVwTDGaGU3SJzmhtFC.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Ricardo Pavão</name>
+        <role>Vasco Sampaio</role>
+        <order>42</order>
+        <thumb>https://image.tmdb.org/t/p/original/mzAaQusrRXu5TqaNyMGsulbF91p.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Joelson Medeiros</name>
+        <role>Firmino de Oliveira</role>
+        <order>43</order>
+        <thumb>https://image.tmdb.org/t/p/original/fue1D5pQRdvfuzIqHlwOppLIopE.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Fátima Montenegro</name>
+        <role>Elvira de Oliveira</role>
+        <order>44</order>
+        <thumb>https://image.tmdb.org/t/p/original/xM0MH4Wciqd9hyLgmfV6CAPoo9x.jpg</thumb>
+    </actor>
+    <actor>
+        <name>Gustavo Arthiddoro</name>
+        <role>Raimundo Freitas</role>
+        <order>46</order>
+        <thumb>https://image.tmdb.org/t/p/original/btYnWGINSgw7lVzstLrGIwxfF69.jpg</thumb>
+    </actor>
+    <namedseason number="1">Season 1</namedseason>
+    <resume>
+        <position>0.000000</position>
+        <total>0.000000</total>
+    </resume>
+    <dateadded>2021-02-17 16:47:28</dateadded>
+</tvshow>

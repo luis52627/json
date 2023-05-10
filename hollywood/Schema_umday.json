@@ -1,0 +1,845 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "string"
+    },
+    "movies": {
+      "type": "object",
+      "properties": {
+        "2023-05-12": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "banner": {
+                  "type": "string"
+                },
+                "banner_mobile": {
+                  "type": "string"
+                },
+                "video": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "duracao": {
+                  "type": "string"
+                },
+                "genero": {
+                  "type": "string"
+                },
+                "favorite": {
+                  "type": "boolean"
+                },
+                "estreia": {
+                  "type": "boolean"
+                },
+                "average_rating": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "permalink",
+                "image",
+                "banner",
+                "banner_mobile",
+                "video",
+                "title",
+                "date",
+                "description",
+                "duracao",
+                "genero",
+                "favorite",
+                "estreia",
+                "average_rating"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "2023-05-12"
+      ]
+    }
+  },
+  "required": [
+    "result",
+    "movies"
+  ]
+}

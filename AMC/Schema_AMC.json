@@ -1,0 +1,2961 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "startDate": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "object",
+      "properties": {
+        "2023-05-09": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "boolean"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "boolean"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "stunt_slugs": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "stunt_slugs",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "stunt_slugs": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "stunt_slugs",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "stunt_slugs": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "stunt_slugs",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "synopsis": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "synopsis",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "synopsis": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "synopsis",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            }
+          ]
+        },
+        "2023-05-10": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "thumbnail",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "stunt_slugs": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "stunt_slugs",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "thumbnail",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "thumbnail",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "boolean"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "boolean"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "integer"
+                },
+                "episode": {
+                  "type": "integer"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "genreEN",
+                "genre",
+                "programID",
+                "thumbnail",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "synopsis": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "stunt_slugs": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "synopsis",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "stunt_slugs",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "enTitle": {
+                  "type": "string"
+                },
+                "synopsis": {
+                  "type": "string"
+                },
+                "genreEN": {
+                  "type": "string"
+                },
+                "genre": {
+                  "type": "string"
+                },
+                "programID": {
+                  "type": "integer"
+                },
+                "post_id": {
+                  "type": "integer"
+                },
+                "thumbnail": {
+                  "type": "string"
+                },
+                "permalink": {
+                  "type": "string"
+                },
+                "director": {
+                  "type": "string"
+                },
+                "cast": {
+                  "type": "string"
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "runtime": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "boolean"
+                },
+                "episode": {
+                  "type": "boolean"
+                },
+                "timestamp": {
+                  "type": "integer"
+                },
+                "hour": {
+                  "type": "string"
+                },
+                "minute": {
+                  "type": "string"
+                },
+                "time": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "slug",
+                "enTitle",
+                "synopsis",
+                "genreEN",
+                "genre",
+                "programID",
+                "post_id",
+                "thumbnail",
+                "permalink",
+                "director",
+                "cast",
+                "year",
+                "runtime",
+                "season",
+                "episode",
+                "timestamp",
+                "hour",
+                "minute",
+                "time"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "2023-05-09",
+        "2023-05-10"
+      ]
+    },
+    "stunts": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "thumbnail": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "slug",
+            "thumbnail"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "thumbnail": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "slug",
+            "thumbnail"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "thumbnail": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "slug",
+            "thumbnail"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "startDate",
+    "schedule",
+    "stunts"
+  ]
+}

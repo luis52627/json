@@ -1,0 +1,1166 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "d": {
+      "type": "object",
+      "properties": {
+        "services": {
+          "type": "array",
+          "items": {}
+        },
+        "channels": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "sigla": {
+                  "type": "string"
+                },
+                "friendlyUrlName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "meogo": {
+                  "type": "boolean"
+                },
+                "logo": {
+                  "type": "string"
+                },
+                "isAdult": {
+                  "type": "boolean"
+                },
+                "categories": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name"
+                      ]
+                    }
+                  ]
+                },
+                "types": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "name"
+                      ]
+                    }
+                  ]
+                },
+                "programs": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timeIni": {
+                          "type": "string"
+                        },
+                        "timeEnd": {
+                          "type": "string"
+                        },
+                        "number": {
+                          "type": "integer"
+                        },
+                        "uniqueId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "recordType": {
+                          "type": "integer"
+                        },
+                        "recordingDefinitionID": {
+                          "type": "string"
+                        },
+                        "recordingProgramID": {
+                          "type": "string"
+                        },
+                        "seriesID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timeIni",
+                        "timeEnd",
+                        "number",
+                        "uniqueId",
+                        "name",
+                        "recordType",
+                        "recordingDefinitionID",
+                        "recordingProgramID",
+                        "seriesID"
+                      ]
+                    }
+                  ]
+                },
+                "moreInfo": {
+                  "type": "object",
+                  "properties": {
+                    "Label": {
+                      "type": "string"
+                    },
+                    "Link": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Label",
+                    "Link"
+                  ]
+                },
+                "programacaoCanal": {
+                  "type": "object",
+                  "properties": {
+                    "Label": {
+                      "type": "string"
+                    },
+                    "Link": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Label",
+                    "Link"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "sigla",
+                "friendlyUrlName",
+                "url",
+                "meogo",
+                "logo",
+                "isAdult",
+                "categories",
+                "types",
+                "programs",
+                "moreInfo",
+                "programacaoCanal"
+              ]
+            }
+          ]
+        },
+        "filters": {
+          "type": "object",
+          "properties": {
+            "types": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name"
+                  ]
+                }
+              ]
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "types",
+            "categories"
+          ]
+        }
+      },
+      "required": [
+        "services",
+        "channels",
+        "filters"
+      ]
+    }
+  },
+  "required": [
+    "d"
+  ]
+}

@@ -14,6 +14,9 @@ use LWP::UserAgent       ();
 use Encode;
 use JSON;
 use Digest::SHA qw(sha1_hex);
+use Errno qw(EAGAIN);
+use URI;
+use URI::Escape;
 
 use XMLTV;
 use XMLTV::Version "$XMLTV::VERSION";
@@ -382,7 +385,7 @@ sub get_programmes {
 	$ch_meo_id = toUTF8($ch_meo_id);
 	print STDERR " CH= $ch_meo_id \n" if $opt_debug;
 
-	my $url = 'https://www.meo.pt/_layouts/15/Ptsi.Isites.GridTv/GridTvMng.asmx/getProgramsFromChannels';
+	my $url = URI->new($SCHEDULE_URL);
 	print STDERR " URL= $url \n" if $opt_debug;
 	t $url;
 
@@ -456,7 +459,7 @@ sub get_programmes {
 			# get programme description from the programme page unless the user says no
 			if (!$opt_fast) {
 
-				my $url = 'https://www.meo.pt/_layouts/15/Ptsi.Isites.GridTv/GridTvMng.asmx/getProgramDetails';
+				my $url = URI->new($DETAILS_URL);
 				print STDERR " URL= $url \n" if $opt_debug && !$debug_url_done; $debug_url_done=1;
 				t $url;
 
@@ -584,7 +587,7 @@ sub get_channels {
 	my ( %channels, %channellabels );
 
 	# retrieve channels
-	my $url = 'https://www.meo.pt/_layouts/15/Ptsi.Isites.GridTv/GridTvMng.asmx/getGridAnon';
+	my $url = URI->new($CHANNEL_LIST_URL);
 	print STDERR " URL= $url \n" if $opt_debug;
 	t $url;
 

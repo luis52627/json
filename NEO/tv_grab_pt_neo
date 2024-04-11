@@ -1,87 +1,5 @@
 #!/usr/bin/perl
 
-=pod
-
-=head1 NAME
-
-tv_grab_pt_meo - Grab TV listings for Portugal.
-
-=head1 SYNOPSIS
-
-tv_grab_pt_meo --help
-
-tv_grab_pt_meo [--config-file FILE] --configure [--gui OPTION]
-
-tv_grab_pt_meo [--config-file FILE] [--output FILE] [--days N]
-               [--offset N] [--fast] [--quiet] [--debug]
-
-tv_grab_pt_meo --list-channels [--config-file FILE]
-                 [--output FILE] [--quiet] [--debug]
-
-=head1 DESCRIPTION
-
-Output TV listings for several channels available in Portugal.
-
-First run B<tv_grab_pt_meo --configure> to choose, which channels you want
-to download. Then running B<tv_grab_pt_meo> with no arguments will output
-listings in XML format to standard output.
-
-Channel ids will be output in alphanumeric characters. Only basic Latin
-alphabet chars are allowed, so any utf-8 characters in the station callsign
-will be translated to a Latin equivalent. If you would prefer to have numeric ids
-then you can use the 'number' option to use the channel I<number> as the id.
-(Compare 'HISTHD' vs. '91'.) You can set this option during --configure.
-
-B<--configure> Prompt for which channels, and write the configuration file.
-
-B<--gui OPTION> Use this option to enable a graphical interface to be used.
-OPTION may be 'Tk', or left blank for the best available choice.
-Additional allowed values of OPTION are 'Term' for normal terminal output
-(default) and 'TermNoProgressBar' to disable the use of Term::ProgressBar.
-
-B<--config-file FILE> Set the name of the configuration file, the
-default is B<~/.xmltv/tv_grab_pt_meo.conf>.  This is the file written by
-B<--configure> and read when grabbing.
-
-B<--days N> Grab N days.  The default is 7 days.
-
-B<--offset N> Start N days in the future.  The default is to start
-from today.
-
-B<--fast> Only fetch summary information for each programme. This is
-only title, start/stop times, category, episode number.
-
-B<--output FILE> Write to FILE rather than standard output.
-
-B<--quiet> Suppress the progress messages normally written to standard
-error.
-
-B<--debug> Provide more information on progress to standard error to help in
-debugging.
-
-B<--list-channels> Output a list (in xmltv format) of all channels that can be fetched.
-
-B<--version> Show the version of the grabber.
-
-B<--help> Print a help message and exit.
-
-=head1 SEE ALSO
-
-L<xmltv(5)>.
-
-=head1 AUTHOR
-
-Geoff Westcott,
-based on tv_grab_pt from Bruno Tavares, gawen@users.sourceforge.net,
-based on tv_grab_es, from Ramon Roca.
-
-=head1 BUGS
-
-None known.
-
-=cut
-
-######################################################################
 # initializations
 
 use strict;
@@ -91,8 +9,12 @@ use DateTime;
 use IO::File;
 use File::Path;
 use File::Basename;
-use LWP::UserAgent;
+use HTTP::CookieJar::LWP ();
+use LWP::UserAgent       ();
 use Encode;
+use JSON;
+use Digest::SHA qw(sha1_hex);
+
 use XMLTV;
 use XMLTV::Version "$XMLTV::VERSION";
 use XMLTV::Memoize; XMLTV::Memoize::check_argv('XMLTV::Get_nice::post_nice_json');
@@ -112,13 +34,23 @@ To grab listings: $0 [--config-file FILE] [--output FILE] [--quiet] [--offset OF
 To list channels: $0 --list-channels
 END
 
-use feature 'say'; # Import 'say' feature for easier printing
-
-
 
 my $DOMAIN = 'meo.pt';
 my $SOURCE_URL = "http://www.$DOMAIN";
+my $agent_name    = 'Mozilla/5.0 (Linux; Android 11; Pixel C Build/RQ2A.210305.006) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.152 Safari/537.36';
 
+my $ua = LWP::UserAgent->new(agent => "$agent_name");
+$ua->default_header('accept-encoding' => scalar HTTP::Message::decodable());
+$ua->requests_redirectable(['GET', 'HEAD', 'POST', 'PUT', 'DELETE']);
+
+#URL BASE:
+my $SITEBASESSL = "https://authservice.apps.meo.pt";
+# URL for getProgramsFromChannels
+my $SCHEDULE_URL = "$SITEBASESSL/Services/GridTv/GridTvMng.svc/getProgramsFromChannels";
+# URL for getProgramDetails
+my $DETAILS_URL = "$SITEBASESSL/Services/GridTv/GridTvMng.svc/getProgramDetails";
+# URL for channel list
+my $CHANNEL_LIST_URL = "$SITEBASESSL/Services/GridTv/GridTvMng.svc/getGridAnon";
 
 # Attributes of the root element in output.
 my $HEAD = { 'source-info-url'	 => "$SOURCE_URL/",
@@ -130,33 +62,8 @@ my $HEAD = { 'source-info-url'	 => "$SOURCE_URL/",
 # default language
 my $LANG="pt";
 
-# Create a user agent object
-my $ua = LWP::UserAgent->new;
 
-# Set headers
-$ua->default_header('Accept' => '*/*');
-$ua->default_header('Accept-Language' => 'pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7');
-$ua->default_header('Connection' => 'keep-alive');
-$ua->default_header('Content-type' => 'application/json; charset=UTF-8');
-
-# Set Cookie
-my $cookie = 'UqZBpD3n3iPIDwJU9DmYiWmUQf4W9ZRPPtjUq5LGpgmWAx3WM7WKvw__=v1l5o8g++Cqfo; _fbp=fb.1.1712770034954.136794404; MEOAnonCampaign=1; _tt_enable_cookie=1; _ttp=_ESShJ1axn-xtVnlb-KUqnG4Yts; _clck=rcmg1w%7C2%7Cfkt%7C0%7C1561; _gcl_au=1.1.1291540625.1712770038; _gid=GA1.2.1676323360.1712770040; _clsk=afg8nb%7C1712770084875%7C3%7C1%7Cn.clarity.ms%2Fcollect; _ga=GA1.1.1461627039.1712770040; inside-eu=755565141-39b1b07ad80e89c953371c86e92c30fd5165a1c1eef4e4fd2f6c0b2e3310bf56-0-0; _ga_2KETBKPXG6=GS1.1.1712770039.1.1.1712770103.60.0.';
-$ua->default_header('Cookie' => $cookie);
-
-# Example usage of the user agent:
-my $response = $ua->get($SOURCE
-
-
-# Function to make a POST request and decode JSON response
-sub post_nice_json {
-    my ($url, $data) = @_;  # Retrieve arguments using @_
-    my $ua = LWP::UserAgent->new;
-    $ua->default_header('Content-Type' => 'application/json');
-    my $response = $ua->post($url, Content => $content);
-    die "Error: ", $response->status_line unless $response->is_success;
-    return JSON::MaybeXS->new->utf8->decode($response->decoded_content);
-}
-#####################################################################
+######################################################################
 # get options
 
 # Get options,
@@ -475,11 +382,11 @@ sub get_programmes {
 	$ch_meo_id = toUTF8($ch_meo_id);
 	print STDERR " CH= $ch_meo_id \n" if $opt_debug;
 
-	my $url = $ua->get('https://authservice.apps.meo.pt/Services/GridTv/GridTvMng.svc/getProgramsFromChannels');
+	my $url = 'https://www.meo.pt/_layouts/15/Ptsi.Isites.GridTv/GridTvMng.asmx/getProgramsFromChannels';
 	print STDERR " URL= $url \n" if $opt_debug;
 	t $url;
 
-	my $content = '{ service:"channelsguide", channels: ["'.$ch_meo_id.'"], dateStart:"'.$dt_start->strftime('%Y-%m-%d').'T21:00:00.000Z", dateEnd:"'.$dt_stop->strftime('%Y-%m-%d').'T01:00:00.000Z", accountID:"" }';
+	my $content = '{ service:"channelsguide", channels: ["'.$ch_meo_id.'"], dateStart:"'.$dt_start->strftime('%Y-%m-%d').'T00:00:00.000Z", dateEnd:"'.$dt_stop->strftime('%Y-%m-%d').'T00:00:00.000Z", accountID:"" }';
 	print STDERR " BODY= $content \n" if $opt_debug;
 	t $content;
 
@@ -508,6 +415,7 @@ sub get_programmes {
 			$p_desc		= '';	# needs 'details' page
 			$p_image	= '';	# needs 'details' page
 			$p_rating	= '';	# needs 'details' page
+
 
 			# get prog times
 			my ($d,$m,$y) = $prog->{date} =~ /^(\d+)-(\d+)-(\d\d\d\d)$/;
@@ -548,14 +456,13 @@ sub get_programmes {
 			# get programme description from the programme page unless the user says no
 			if (!$opt_fast) {
 
-				my $url = 'https://authservice.apps.meo.pt/Services/GridTv/GridTvMng.svc/getProgramDetails';
+				my $url = 'https://www.meo.pt/_layouts/15/Ptsi.Isites.GridTv/GridTvMng.asmx/getProgramDetails';
 				print STDERR " URL= $url \n" if $opt_debug && !$debug_url_done; $debug_url_done=1;
 				t $url;
 
 				my $content = '{ service:"programdetail", programID:"'.$p_id.'", accountID:"" }';
 				print STDERR " BODY= $content \n" if $opt_debug;
 				t $content;
-
 
 				my $data = post_nice_json( $url, $content );
 
@@ -677,7 +584,7 @@ sub get_channels {
 	my ( %channels, %channellabels );
 
 	# retrieve channels
-	my $url = 'https://authservice.apps.meo.pt/Services/GridTv/GridTvMng.svc/getGridAnon';
+	my $url = 'https://www.meo.pt/_layouts/15/Ptsi.Isites.GridTv/GridTvMng.asmx/getGridAnon';
 	print STDERR " URL= $url \n" if $opt_debug;
 	t $url;
 
@@ -730,3 +637,88 @@ sub get_channels {
 	finish $bar if not $opt_quiet;
 	return ( \%channels, \%channellabels );
 }
+
+
+
+=pod
+
+=head1 NAME
+
+tv_grab_pt_meo - Grab TV listings for Portugal.
+
+=head1 SYNOPSIS
+
+tv_grab_pt_meo --help
+
+tv_grab_pt_meo [--config-file FILE] --configure [--gui OPTION]
+
+tv_grab_pt_meo [--config-file FILE] [--output FILE] [--days N]
+               [--offset N] [--fast] [--quiet] [--debug]
+
+tv_grab_pt_meo --list-channels [--config-file FILE]
+                 [--output FILE] [--quiet] [--debug]
+
+=head1 DESCRIPTION
+
+Output TV listings for several channels available in Portugal.
+
+First run B<tv_grab_pt_meo --configure> to choose, which channels you want
+to download. Then running B<tv_grab_pt_meo> with no arguments will output
+listings in XML format to standard output.
+
+Channel ids will be output in alphanumeric characters. Only basic Latin
+alphabet chars are allowed, so any utf-8 characters in the station callsign
+will be translated to a Latin equivalent. If you would prefer to have numeric ids
+then you can use the 'number' option to use the channel I<number> as the id.
+(Compare 'HISTHD' vs. '91'.) You can set this option during --configure.
+
+B<--configure> Prompt for which channels, and write the configuration file.
+
+B<--gui OPTION> Use this option to enable a graphical interface to be used.
+OPTION may be 'Tk', or left blank for the best available choice.
+Additional allowed values of OPTION are 'Term' for normal terminal output
+(default) and 'TermNoProgressBar' to disable the use of Term::ProgressBar.
+
+B<--config-file FILE> Set the name of the configuration file, the
+default is B<~/.xmltv/tv_grab_pt_meo.conf>.  This is the file written by
+B<--configure> and read when grabbing.
+
+B<--days N> Grab N days.  The default is 7 days.
+
+B<--offset N> Start N days in the future.  The default is to start
+from today.
+
+B<--fast> Only fetch summary information for each programme. This is
+only title, start/stop times, category, episode number.
+
+B<--output FILE> Write to FILE rather than standard output.
+
+B<--quiet> Suppress the progress messages normally written to standard
+error.
+
+B<--debug> Provide more information on progress to standard error to help in
+debugging.
+
+B<--list-channels> Output a list (in xmltv format) of all channels that can be fetched.
+
+B<--version> Show the version of the grabber.
+
+B<--help> Print a help message and exit.
+
+=head1 SEE ALSO
+
+L<xmltv(5)>.
+
+=head1 AUTHOR
+
+Geoff Westcott,
+based on tv_grab_pt from Bruno Tavares, gawen@users.sourceforge.net,
+based on tv_grab_es, from Ramon Roca.
+
+=head1 BUGS
+
+None known.
+
+=cut
+
+######################################################################
